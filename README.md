@@ -1,6 +1,8 @@
 # Test Repository for LangChain and Streamlit
 
-This is a repository to just test out the functionality of LangChain and Streamlit, and the code is mostly based on [this article](https://swethag04.medium.com/build-your-first-llm-powered-web-app-7af32b22bf94) with some changes to reflect changes in the LangChain API. As in the article, we will be creating a Streamlit app to get the top 5 baby names of a given gender and nationality.
+This is a repository to just test out the functionality of LangChain and Streamlit, and the code is mostly based on [this article](https://swethag04.medium.com/build-your-first-llm-powered-web-app-7af32b22bf94) with some changes to reflect changes in the LangChain API. As in the article, we will be creating a Streamlit app to get the top 5 baby names of a given gender and nationality. This is what the app looks like:
+
+<img src="img/app_screenshot.png" alt="Screenshot of app" style="display:block; margin:auto; width: 50%">
 
 ## Setup
 
