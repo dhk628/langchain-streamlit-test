@@ -41,7 +41,9 @@ def generate_baby_names(gender:str, nationality:str) -> list[str]:
 
     response = chain.invoke(input_data)
 
-    return response.content.replace(' ', '').split(',')
+    names = response.content.strip().split('\n')[-1].split(',')
+
+    return names
 
 if __name__ == "__main__":
-    print(generate_baby_names("male", "American"))
+    print(generate_baby_names("girl", "Japanese"))

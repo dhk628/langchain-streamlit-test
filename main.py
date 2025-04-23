@@ -15,7 +15,7 @@ button_input = st.button("Submit")
 
 if button_input:
     if gender and nationality:
-        baby_names = langchain_helper.generate_baby_names(gender, nationality)
+        baby_names = langchain_helper.generate_baby_names(gender.lower(), nationality)
         st.write('Top 5 baby names:')
         for name in baby_names:
             st.write("--", name)
